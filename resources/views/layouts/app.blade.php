@@ -34,7 +34,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-                        @if (Auth::check())
+                    
+                        @if (Auth::check())                        
                             <li><a class="nav-link" href="/buku">Buku</a></li>
                             <li><a class="nav-link" href="/penulis">Penulis</a></li>                        
                             <li><a class="nav-link" href="/user">Admin</a>  </li>                        
